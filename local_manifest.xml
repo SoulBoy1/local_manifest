@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Trees -->
+ <project path="device/10or/G" name="begonia-dev/android_device_redmi_begonia.git" remote="github" revision="13.0" />
+ <project path="device/10or/msm8953-common" name="LineageOS/android_device_xiaomi_mt6785-common.git" remote="github" revision="lineage-17.1" />
+ <project path="vendor/10or" name="begonia-dev/android_vendor_redmi_begonia.git" remote="github" revision="13.0" />
+ <project path="kernel/10or/G" name="begonia-dev/android_kernel_xiaomi_mt6785.git" remote="github" revision="13.0" />
+ 
+</manifest>
