@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Trees -->
- <project path="device/10or/G" name="begonia-dev/android_device_redmi_begonia.git" remote="github" revision="13.0" />
- <project path="device/10or/msm8953-common" name="LineageOS/android_device_xiaomi_mt6785-common.git" remote="github" revision="lineage-17.1" />
- <project path="vendor/10or" name="begonia-dev/android_vendor_redmi_begonia.git" remote="github" revision="13.0" />
- <project path="kernel/10or/G" name="begonia-dev/android_kernel_xiaomi_mt6785.git" remote="github" revision="13.0" />
+<!-- Tracking -->
+  <remote name="track" fetch="https://github.com"/>
+   <remote name="lab" fetch="https://gitlab.com"/>
+
+<!-- Additional -->
  
+ <project path="hardware/mediatek" name="begonia-dev/android_hardware_mediatek" remote="track" revision="13.0" />
+  
+<project path="packages/apps/RevampedFMRadio" name="begonia-dev/android_packages_apps_RevampedFMRadio" remote="track" revision="13.0" />
+
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
+
+ 
+  <!-- Trees -->
+ <project path="device/redmi/begonia" name="Fr0ztyy43/android_device_redmi_begonia" remote="track" revision="tiramisu" />
+ <project path="vendor/redmi/begonia" name="begonia-dev/android_vendor_redmi_begonia" remote="track" revision="13.0" />
+ <project path="kernel/xiaomi/mt6785" name="begonia-dev/android_kernel_xiaomi_mt6785" remote="track" revision="13.0" />
+ <project path="device/mediatek/sepolicy" name="Fr0ztyy43/android_device_mediatek_sepolicy" remote="track" revision="13.0" />
+ <project path="vendor/redmi/begonia-ims" name="begonia-dev/android_vendor_redmi_begonia-ims" remote="track" revision="13.0" />
+  
 </manifest>
